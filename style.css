@@ -1,5 +1,56 @@
-/*********************************
+/* =====================
+  ページラッパー
+===================== */
+.wrapper {
+  margin: 40px 20px 40px 20px;
+	background: white;
+}
 
-*********************************/
+/* =====================
+  ページタイトル
+===================== */
+.title {
+  padding: 10px 10px 0 10px;
+	color: white;
+	background: green;
+}
+
+/* =====================
+  .section 配下のストラクチャ
+===================== */
+.section {
+
+}
+
+.heading {
+
+
+}
+
+.paragraph {
+
+
+
+}
+
+.address {
+  padding-left: 20px;
+}
+
+.link {
+
+
+}
+
+.banner img {
+    border: 1px solid black;
+}
+
+/* =====================
+  .section 配下のスキン
+===================== */
+.red {
+  color: red;
+}
 
 
