@@ -1,49 +1,79 @@
 /* =====================
+  リセット
+===================== */
+html {
+	line-height: 1;
+}
+h1 {
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0;
+}
+h2 {
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0;
+}
+p, ul {
+	margin: 0;
+}
+
+/* =====================
+  全体に対するスタイル指定
+===================== */
+.body {
+	font-size: 14px;
+	background: white;
+}
+
+/* =====================
   ページラッパー
 ===================== */
 .wrapper {
-  margin: 40px 20px 40px 20px;
-	background: white;
+	margin: 20px 20px 40px 20px;
 }
 
 /* =====================
   ページタイトル
 ===================== */
 .title {
-  padding: 10px 10px 0 10px;
 	color: white;
+	font-size: 28px;
+  vertical-align: middle;
+  line-height:56px;
 	background: green;
+  height: 56px;
+  padding: 10px 15px 0 15px;
+  margin-bottom: 28px;
+  display: inline-block;
 }
 
 /* =====================
   .section 配下のストラクチャ
 ===================== */
 .section {
-
+  margin-bottom: 28px;
 }
-
 .heading {
-
-
+  color: #800080;
+	font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 14px;
 }
-
 .paragraph {
-
-
-
+	font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 14px;
 }
-
 .address {
-  padding-left: 20px;
+	padding-left: 20px;
 }
-
-.link {
-
-
+.address li {
+	font-size: 14px;
+	margin-bottom: 7px;
 }
-
 .banner img {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 /* =====================
@@ -52,5 +82,3 @@
 .red {
   color: red;
 }
-
-
